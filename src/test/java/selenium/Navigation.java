@@ -11,7 +11,7 @@ public class Navigation {
 
 		// open url
 		driver.get("https://www.clickbank.com/");
-
+		// get the title of current url
 		String title = driver.getTitle();
 
 		if (title.contains("Selenium")) {
