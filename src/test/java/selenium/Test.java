@@ -71,6 +71,7 @@ public class Test {
 	public static void main(String args[]) throws InterruptedException {
 		// create object of test class
 		Test t = new Test();
+		// call method
 		t.verifyTitle();
 
 	}
